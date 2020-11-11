@@ -1,0 +1,121 @@
+#main{
+	font-family:arial;
+	margin:20px;
+}
+Body{
+	
+	background-color:rgb(150, 150, 150);
+}
+#zag3{
+	float:left;
+	text-align:center;
+	margin-top:50px;
+	margin-left:50px;
+	
+}
+#first{
+	border: 3px solid black;
+	height:150px;
+	transition:0.5s;
+	background-color:rgb(245, 245, 245);
+	border-radius:10px;
+}
+#first:hover{
+	box-shadow:0px 0px 30px 0px rgba(50, 50, 50, 1);
+	margin:-10px;
+}	
+#zagtext{
+	margin-left:40px;
+	margin-top:30px;
+}
+#zag{
+	font-size:72px;
+	float:left;
+	height:150px;
+	width:400px;
+	border-radius:10px 0px 0px 10px;
+	background-color:rgb(220, 220, 220);
+}
+.zag2{
+	padding-right:50px;
+	padding-top:10px;
+	font-size:24px;
+}
+
+#second{
+	display:flex;
+	margin-top:20px;
+}
+
+.flex1{
+	flex:0.5;
+	border: 3px solid black;
+	transition:0.5s;
+	background-color:rgb(245, 245, 245);
+	border-radius:10px;
+}
+.flex1:hover{
+	box-shadow:0px 0px 30px 0px rgba(50, 50, 50, 1);
+	margin:-10px;
+}
+.flex2{
+	flex:3;
+	border: 3px solid black;
+	margin-left:20px;
+	transition:0.5s;
+	background-color:rgb(245, 245, 245);
+	border-radius:10px;
+}
+.flex2:hover{
+	
+	box-shadow:0px 0px 30px 0px rgba(50, 50, 50, 1);
+	margin-right:-10px;
+	margin-top:-10px;
+	margin-bottom:-10px;
+	margin-left: 10px;
+}
+#nav{
+	padding-top:30px;
+	margin-bottom:30px;
+	text-align:center;
+	font-size:40px;
+	background-color:rgb(220, 220, 220);
+	border-radius:10px 10px 0px 0px;
+	height:80px;
+}
+
+.flex2 div{
+	padding-left: 150px;
+	padding-right: 150px;	
+	padding-top: 50px;
+}
+.ug{
+	height:150px;
+	width:150px;
+	border-radius: 100px; /* Радиус скругления */
+    border: 3px solid black; /* Параметры рамки */
+	margin-top:20px;
+	margin-bottom:5px;
+	transition:0.2s;
+
+}
+
+.ug:hover{
+	box-shadow:0px 0px 30px 0px rgba(50, 50, 50, 1);
+	height:200px;
+	width:200px;
+}
+
+#last{
+	margin-bottom:50px;
+}
+
+#img1{
+	text-align:center;
+	font-size:16px;
+	
+	
+}
+.zag2 p{
+	text-align:right;
+}
