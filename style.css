@@ -1,16 +1,29 @@
+table {
+	margin-right:100px;
+	margin-top:50px;
+	border: 2px solid black;
+	width:400px;
+	text-align:center;
+	font-size:24px;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
 #main{
 	font-family:arial;
 	margin:20px;
 }
 Body{
 	
-	background-color:rgb(150, 150, 150);
+	background:url(coal.png);
 }
 #zag3{
-	float:left;
 	text-align:center;
-	margin-top:50px;
+	margin-top:20px;
 	margin-left:50px;
+	font-size:45px;
 	
 }
 #first{
@@ -36,11 +49,6 @@ Body{
 	border-radius:10px 0px 0px 10px;
 	background-color:rgb(220, 220, 220);
 }
-.zag2{
-	padding-right:50px;
-	padding-top:10px;
-	font-size:24px;
-}
 
 #second{
 	display:flex;
@@ -48,7 +56,7 @@ Body{
 }
 
 .flex1{
-	flex:0.5;
+	flex:1;
 	border: 3px solid black;
 	transition:0.5s;
 	background-color:rgb(245, 245, 245);
@@ -59,12 +67,23 @@ Body{
 	margin:-10px;
 }
 .flex2{
-	flex:3;
+	flex:2.5;
 	border: 3px solid black;
 	margin-left:20px;
 	transition:0.5s;
 	background-color:rgb(245, 245, 245);
 	border-radius:10px;
+}
+#map{
+	margin:0 auto 0 auto;
+	width:1200px;
+}
+#tele{
+	font-size:34px;
+	margin-top:400px;
+	margin-left:100px;
+	padding-left:20px;
+	
 }
 .flex2:hover{
 	
@@ -84,18 +103,16 @@ Body{
 	height:80px;
 }
 
-.flex2 div{
-	padding-left: 150px;
-	padding-right: 150px;	
-	padding-top: 50px;
-}
+
 .ug{
 	height:150px;
 	width:150px;
 	border-radius: 100px; /* Радиус скругления */
     border: 3px solid black; /* Параметры рамки */
-	margin-top:20px;
-	margin-bottom:5px;
+	margin-top:0px;
+	margin-bottom:20px;
+	margin-right:5px;
+	margin-left:5px;
 	transition:0.2s;
 
 }
@@ -116,6 +133,4 @@ Body{
 	
 	
 }
-.zag2 p{
-	text-align:right;
-}
+
